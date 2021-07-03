@@ -1,0 +1,3 @@
+version: 0.1
+database:
+  POSTGRES_URI: !ENV ${POSTGRES_URI}
