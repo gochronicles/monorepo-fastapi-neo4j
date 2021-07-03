@@ -16,8 +16,7 @@ An opinionated yet customizable RESTful CRUD APIs for generic business domain se
     cd services/domain
     pipenv install # for first time setup
     pipenv run python main.py # or
-    pipenv run uvicorn main:app --rcd services
-eload # for hot reload
+    pipenv run uvicorn main:app --reload # for hot reload
     ```
 
 1. Endpoint available at
